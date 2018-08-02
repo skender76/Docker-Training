@@ -18,13 +18,13 @@ Docker uses a client-server approach. The docker commands (e.g. docker pull, doc
 
 The key concepts about docker are:
 
-Images: The images are templates used to create containers (similar to object and class relationship). The docker images are stored in a registry (see [Docker Hub](https://hub.docker.com)) and they are created by running docker build command. Given that the image can become huge it is composed into different layers that are downloaded separately. Using official images from the public registry has several up sides such as a clear documentation, dedicated team for content review and security updates.
+**Images**: The images are templates used to create containers (similar to object and class relationship). The docker images are stored in a registry (see [Docker Hub](https://hub.docker.com)) and they are created by running docker build command. Given that the image can become huge it is composed into different layers that are downloaded separately. Using official images from the public registry has several up sides such as a clear documentation, dedicated team for content review and security updates.
 
-Container: lightweight environment to encapsulate and run applications.
+**Container**: lightweight environment to encapsulate and run applications.
 
-Registry: Images are stored in the docker registry. It can be a private registry but the public docker registry is DockerHub. 
+**Registry**: Images are stored in the docker registry. It can be a private registry but the public docker registry is DockerHub. 
 
-Repository: Inside a registry, the images are stored into repositories. A docker repository is a collection of different images with the same name but different tags (usually representing different versions) 
+**Repository**: Inside a registry, the images are stored into repositories. A docker repository is a collection of different images with the same name but different tags (usually representing different versions) 
 
 ### SOME DOCKER COMMANDS
 
@@ -37,13 +37,15 @@ Lists the container running
 **docker ps -a**
 Lists all the container executed
 
-**docker run -it -d <docker images ID>** 
+**docker run -it -d docker_images_ID** 
 Run the container in background (-d) using the interactive mode
 
-**docker run --rm <docker images ID>**
+**docker run --rm docker_images_ID**
 Run the container and remove it once completed
 
 **docker log**
 Allows to see the container logs
+
+## WORKING WITH DOCKER
 
 
