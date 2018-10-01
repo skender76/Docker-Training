@@ -187,12 +187,12 @@ services:
    redis:
       image: redis:3.2.0
 
-docker-compose up -d 
-docker-compise logs 
-docker-compose stop
-docker-compose rm
-docker-compose ps
-docker-compose build
+* docker-compose up -d 
+* docker-compose logs 
+* docker-compose stop
+* docker-compose rm
+* docker-compose ps
+* docker-compose build
 
 ## DOCKER NETWORKING 
 
