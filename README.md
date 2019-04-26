@@ -18,7 +18,7 @@ Docker uses a client-server approach. The docker commands (e.g. docker pull, doc
 
 The key concepts about docker are:
 
-**Images**: The images are templates used to create containers (similar to object and class relationship). The docker images are stored in a registry (see [Docker Hub](https://hub.docker.com)) and they are created by running docker build command. Given that the image can become huge it is composed into different layers that are downloaded separately. Using official images from the public registry has several up sides such as a clear documentation, dedicated team for content review and security updates.
+**Images**: The images are templates used to create containers (similar to the relationship between the class and the object). The docker images are stored in a registry (see [Docker Hub](https://hub.docker.com)) and they are created by running docker build command. Given that the image can become huge it is composed into different layers that are downloaded separately. Using official images from the public registry has several up sides such as a clear documentation, dedicated team for content review and security updates.
 
 **Container**: lightweight environment to encapsulate and run applications.
 
