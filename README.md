@@ -172,8 +172,9 @@ This is useful because it allows to simplify the definition of links between con
 
 The configuration of the Docker Compose is based on **docker-compose.yml** file.
 
-For instance, assuming we have two container (redis and dockerapp where dockerapp depends on redis):
+For instance, assuming we have two containers (redis and dockerapp where dockerapp depends on redis):
 
+```
 touch docker-compose.yml
 vi docker-compose.yml
 version: '3'
@@ -186,6 +187,7 @@ services:
      - redis
    redis:
       image: redis:3.2.0
+```
 
 * docker-compose up -d 
 * docker-compose logs 
