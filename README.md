@@ -80,8 +80,10 @@ In both case the scenario is:
 
 Create the base images (it will be downloaded from DokcerHub if not available locally)
 
-* *docker run -it debian:jessie* *
-* *apt-get update && apt-get install -y git* *
+```
+docker run -it debian:jessie
+apt-get update && apt-get install -y git
+```
 
 Type * *exit* * to exit from the container and retrieve the container ID by typing:
 
