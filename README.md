@@ -148,11 +148,11 @@ Docker cache is the mechanism to reuse the existing layer but this could lead to
 
 ## PUSH CONTAINER TO DOCKERHUB
 
-* *docker tag 123456789 skfiku76/myimage:1.01* *
-
-* *docker login --username=skfiku76* *
-
-* *docker push skfiku76/myimage:1.01* *
+```
+docker tag 123456789 skfiku76/myimage:1.01
+docker login --username=skfiku76
+docker push skfiku76/myimage:1.01
+```
 
 Eventually you will see skfiku76/myimage repository on DockerHub
 
